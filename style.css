@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin:0;
+    background-color:rgb(165,42,42,0.2);
+}
+
+nav{
+    background-image:url(https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg);
+    height:300px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom:40px;
+    box-shadow:0 0 8px black;
+}
+
+input{
+    display:block;
+    margin:auto;
+    position:sticky;
+    top:60px;
+    width:70%;
+    height: 60px;
+    border-radius:10px;
+    border:none;
+    padding:10px;
+    background-color:rgb(99,18,18);
+    color:#ffffff;
+}
+
+img{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    box-shadow:0 8px 8px black;
+}
+
+img:hover{
+    /* height: 152px;
+    width: 152px; */
+    transform: scale(1.1);
+    box-shadow:0 18px 18px black;
+}
+
+figure{
+    display: inline-block;
+    margin: 16px 85px;
+}
+
+figcaption{
+    text-align: center;
+    font-weight: 600;
+    color:black;
+}
+
+#coffee-menu{
+    text-align: center;
+}
+
+.container{
+    width:85%;
+    margin:50px auto;
+    padding:30px;
+    text-align: justify;
+    background-color:rgb(165,42,42,0.3);
+    border-radius:10px;
+    color:brown;
+    box-shadow: 0 0 8px brown;
+}
+
+h1,p{
+    margin:0;
+}
+
+.container p, .container ol{
+    line-height: 20px;
+}
+
+ol li{
+    padding:5px;
+}
